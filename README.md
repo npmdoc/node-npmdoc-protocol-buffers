@@ -1,9 +1,14 @@
-# api documentation for  [protocol-buffers (v3.2.1)](https://github.com/mafintosh/protocol-buffers)  [![npm package](https://img.shields.io/npm/v/npmdoc-protocol-buffers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-protocol-buffers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-protocol-buffers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-protocol-buffers)
+# npmdoc-protocol-buffers
+
+#### api documentation for  [protocol-buffers (v3.2.1)](https://github.com/mafintosh/protocol-buffers)  [![npm package](https://img.shields.io/npm/v/npmdoc-protocol-buffers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-protocol-buffers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-protocol-buffers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-protocol-buffers)
+
 #### Protocol Buffers for Node.js
 
-[![NPM](https://nodei.co/npm/protocol-buffers.png?downloads=true)](https://www.npmjs.com/package/protocol-buffers)
+[![NPM](https://nodei.co/npm/protocol-buffers.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/protocol-buffers)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-protocol-buffers_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-protocol-buffers/build/screenCapture.npmPackageListing.svg)
 
@@ -67,13 +72,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "mafintosh",
-            "email": "mathiasbuus@gmail.com"
+            "name": "mafintosh"
         }
     ],
     "name": "protocol-buffers",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mafintosh/protocol-buffers.git"
@@ -84,75 +87,6 @@
     },
     "version": "3.2.1"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module protocol-buffers](#apidoc.module.protocol-buffers)
-1.  object <span class="apidocSignatureSpan">protocol-buffers.</span>encodings
-
-#### [module protocol-buffers.encodings](#apidoc.module.protocol-buffers.encodings)
-1.  [function <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>make (type, encode, decode, encodingLength)](#apidoc.element.protocol-buffers.encodings.make)
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>bool
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>bytes
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>double
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>enum
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>fixed32
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>fixed64
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>float
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>int32
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>int64
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>sfixed32
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>sfixed64
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>sint32
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>sint64
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>string
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>uint32
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>uint64
-1.  object <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>varint
-
-
-
-# <a name="apidoc.module.protocol-buffers"></a>[module protocol-buffers](#apidoc.module.protocol-buffers)
-
-
-
-# <a name="apidoc.module.protocol-buffers.encodings"></a>[module protocol-buffers.encodings](#apidoc.module.protocol-buffers.encodings)
-
-#### <a name="apidoc.element.protocol-buffers.encodings.make"></a>[function <span class="apidocSignatureSpan">protocol-buffers.encodings.</span>make (type, encode, decode, encodingLength)](#apidoc.element.protocol-buffers.encodings.make)
-- description and source-code
-```javascript
-make = function (type, encode, decode, encodingLength) {
-  encode.bytes = decode.bytes = 0
-
-  return {
-    type: type,
-    encode: encode,
-    decode: decode,
-    encodingLength: encodingLength
-  }
-}
-```
-- example usage
-```shell
-...
-      ('decode.bytes = varint.decode.bytes')
-      ('return val')
-    ('}')
-    .toFunction({
-      varint: varint
-    })
-
-  return encodings.make(0, encode, decode, varint.encodingLength)
-}
-
-var compileMessage = function (m, exports) {
-  m.messages.forEach(function (nested) {
-    exports[nested.name] = resolve(nested.name, m.id)
-  })
-...
 ```
 
 
