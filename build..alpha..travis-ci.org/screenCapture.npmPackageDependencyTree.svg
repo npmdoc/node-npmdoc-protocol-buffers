@@ -1,66 +1,68 @@
-<svg height="1006" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1006" fill="#555" width="720"></rect>
+<svg height="1038" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1038" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">7 megabytes</tspan>
-<tspan x="10" y="42">└─┬ protocol-buffers@3.2.1 </tspan>
-<tspan x="10" y="58">  ├─┬ brfs@1.4.3 </tspan>
-<tspan x="10" y="74">  │ ├─┬ quote-stream@1.0.2 </tspan>
-<tspan x="10" y="90">  │ │ ├── buffer-equal@0.0.1 </tspan>
-<tspan x="10" y="106">  │ │ └── minimist@1.2.0 </tspan>
-<tspan x="10" y="122">  │ ├─┬ resolve@1.3.2 </tspan>
-<tspan x="10" y="138">  │ │ └── path-parse@1.0.5 </tspan>
-<tspan x="10" y="154">  │ ├─┬ static-module@1.3.1 </tspan>
-<tspan x="10" y="170">  │ │ ├─┬ concat-stream@1.4.10 </tspan>
-<tspan x="10" y="186">  │ │ │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="202">  │ │ │ ├─┬ readable-stream@1.1.14 </tspan>
-<tspan x="10" y="218">  │ │ │ │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="234">  │ │ │ │ └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="250">  │ │ │ └── typedarray@0.0.6 </tspan>
-<tspan x="10" y="266">  │ │ ├─┬ duplexer2@0.0.2 </tspan>
-<tspan x="10" y="282">  │ │ │ └─┬ readable-stream@1.1.14 </tspan>
-<tspan x="10" y="298">  │ │ │   ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="314">  │ │ │   └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="330">  │ │ ├─┬ escodegen@1.3.3 </tspan>
-<tspan x="10" y="346">  │ │ │ ├── esprima@1.1.1 </tspan>
-<tspan x="10" y="362">  │ │ │ ├── estraverse@1.5.1 </tspan>
-<tspan x="10" y="378">  │ │ │ ├── esutils@1.0.0 </tspan>
-<tspan x="10" y="394">  │ │ │ └─┬ source-map@0.1.43 </tspan>
-<tspan x="10" y="410">  │ │ │   └── amdefine@1.0.1 </tspan>
-<tspan x="10" y="426">  │ │ ├─┬ falafel@1.2.0 </tspan>
-<tspan x="10" y="442">  │ │ │ ├── acorn@1.2.2 </tspan>
-<tspan x="10" y="458">  │ │ │ ├── foreach@2.0.5 </tspan>
-<tspan x="10" y="474">  │ │ │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="490">  │ │ │ └── object-keys@1.0.11 </tspan>
-<tspan x="10" y="506">  │ │ ├─┬ has@1.0.1 </tspan>
-<tspan x="10" y="522">  │ │ │ └── function-bind@1.1.0 </tspan>
-<tspan x="10" y="538">  │ │ ├── object-inspect@0.4.0 </tspan>
-<tspan x="10" y="554">  │ │ ├─┬ quote-stream@0.0.0 </tspan>
-<tspan x="10" y="570">  │ │ │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="586">  │ │ ├─┬ readable-stream@1.0.34 </tspan>
-<tspan x="10" y="602">  │ │ │ ├── core-util-is@1.0.2 </tspan>
-<tspan x="10" y="618">  │ │ │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="634">  │ │ │ └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="650">  │ │ ├── shallow-copy@0.0.1 </tspan>
-<tspan x="10" y="666">  │ │ ├─┬ static-eval@0.2.4 </tspan>
-<tspan x="10" y="682">  │ │ │ └─┬ escodegen@0.0.28 </tspan>
-<tspan x="10" y="698">  │ │ │   ├── esprima@1.0.4 </tspan>
-<tspan x="10" y="714">  │ │ │   └── estraverse@1.3.2 </tspan>
-<tspan x="10" y="730">  │ │ └─┬ through2@0.4.2 </tspan>
-<tspan x="10" y="746">  │ │   └─┬ xtend@2.1.2 </tspan>
-<tspan x="10" y="762">  │ │     └── object-keys@0.4.0 </tspan>
-<tspan x="10" y="778">  │ └─┬ through2@2.0.3 </tspan>
-<tspan x="10" y="794">  │   ├─┬ readable-stream@2.2.7 </tspan>
-<tspan x="10" y="810">  │   │ ├── buffer-shims@1.0.0 </tspan>
-<tspan x="10" y="826">  │   │ ├── isarray@1.0.0 </tspan>
-<tspan x="10" y="842">  │   │ ├── process-nextick-args@1.0.7 </tspan>
-<tspan x="10" y="858">  │   │ ├── string_decoder@1.0.0 </tspan>
-<tspan x="10" y="874">  │   │ └── util-deprecate@1.0.2 </tspan>
-<tspan x="10" y="890">  │   └── xtend@4.0.1 </tspan>
-<tspan x="10" y="906">  ├── generate-function@2.0.0 </tspan>
-<tspan x="10" y="922">  ├─┬ generate-object-property@1.2.0 </tspan>
-<tspan x="10" y="938">  │ └── is-property@1.0.2 </tspan>
-<tspan x="10" y="954">  ├── protocol-buffers-schema@3.1.1 </tspan>
-<tspan x="10" y="970">  ├── signed-varint@2.0.1 </tspan>
-<tspan x="10" y="986">  └── varint@5.0.0</tspan>
+<tspan x="10" y="26">7 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ protocol-buffers@3.2.1 </tspan>
+<tspan x="10" y="90">  ├─┬ brfs@1.4.3 </tspan>
+<tspan x="10" y="106">  │ ├─┬ quote-stream@1.0.2 </tspan>
+<tspan x="10" y="122">  │ │ ├── buffer-equal@0.0.1 </tspan>
+<tspan x="10" y="138">  │ │ └── minimist@1.2.0 </tspan>
+<tspan x="10" y="154">  │ ├─┬ resolve@1.3.2 </tspan>
+<tspan x="10" y="170">  │ │ └── path-parse@1.0.5 </tspan>
+<tspan x="10" y="186">  │ ├─┬ static-module@1.3.1 </tspan>
+<tspan x="10" y="202">  │ │ ├─┬ concat-stream@1.4.10 </tspan>
+<tspan x="10" y="218">  │ │ │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="234">  │ │ │ ├─┬ readable-stream@1.1.14 </tspan>
+<tspan x="10" y="250">  │ │ │ │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="266">  │ │ │ │ └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="282">  │ │ │ └── typedarray@0.0.6 </tspan>
+<tspan x="10" y="298">  │ │ ├─┬ duplexer2@0.0.2 </tspan>
+<tspan x="10" y="314">  │ │ │ └─┬ readable-stream@1.1.14 </tspan>
+<tspan x="10" y="330">  │ │ │   ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="346">  │ │ │   └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="362">  │ │ ├─┬ escodegen@1.3.3 </tspan>
+<tspan x="10" y="378">  │ │ │ ├── esprima@1.1.1 </tspan>
+<tspan x="10" y="394">  │ │ │ ├── estraverse@1.5.1 </tspan>
+<tspan x="10" y="410">  │ │ │ ├── esutils@1.0.0 </tspan>
+<tspan x="10" y="426">  │ │ │ └─┬ source-map@0.1.43 </tspan>
+<tspan x="10" y="442">  │ │ │   └── amdefine@1.0.1 </tspan>
+<tspan x="10" y="458">  │ │ ├─┬ falafel@1.2.0 </tspan>
+<tspan x="10" y="474">  │ │ │ ├── acorn@1.2.2 </tspan>
+<tspan x="10" y="490">  │ │ │ ├── foreach@2.0.5 </tspan>
+<tspan x="10" y="506">  │ │ │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="522">  │ │ │ └── object-keys@1.0.11 </tspan>
+<tspan x="10" y="538">  │ │ ├─┬ has@1.0.1 </tspan>
+<tspan x="10" y="554">  │ │ │ └── function-bind@1.1.0 </tspan>
+<tspan x="10" y="570">  │ │ ├── object-inspect@0.4.0 </tspan>
+<tspan x="10" y="586">  │ │ ├─┬ quote-stream@0.0.0 </tspan>
+<tspan x="10" y="602">  │ │ │ └── minimist@0.0.8 </tspan>
+<tspan x="10" y="618">  │ │ ├─┬ readable-stream@1.0.34 </tspan>
+<tspan x="10" y="634">  │ │ │ ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="650">  │ │ │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="666">  │ │ │ └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="682">  │ │ ├── shallow-copy@0.0.1 </tspan>
+<tspan x="10" y="698">  │ │ ├─┬ static-eval@0.2.4 </tspan>
+<tspan x="10" y="714">  │ │ │ └─┬ escodegen@0.0.28 </tspan>
+<tspan x="10" y="730">  │ │ │   ├── esprima@1.0.4 </tspan>
+<tspan x="10" y="746">  │ │ │   └── estraverse@1.3.2 </tspan>
+<tspan x="10" y="762">  │ │ └─┬ through2@0.4.2 </tspan>
+<tspan x="10" y="778">  │ │   └─┬ xtend@2.1.2 </tspan>
+<tspan x="10" y="794">  │ │     └── object-keys@0.4.0 </tspan>
+<tspan x="10" y="810">  │ └─┬ through2@2.0.3 </tspan>
+<tspan x="10" y="826">  │   ├─┬ readable-stream@2.2.9 </tspan>
+<tspan x="10" y="842">  │   │ ├── buffer-shims@1.0.0 </tspan>
+<tspan x="10" y="858">  │   │ ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="874">  │   │ ├── process-nextick-args@1.0.7 </tspan>
+<tspan x="10" y="890">  │   │ ├── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="906">  │   │ └── util-deprecate@1.0.2 </tspan>
+<tspan x="10" y="922">  │   └── xtend@4.0.1 </tspan>
+<tspan x="10" y="938">  ├── generate-function@2.0.0 </tspan>
+<tspan x="10" y="954">  ├─┬ generate-object-property@1.2.0 </tspan>
+<tspan x="10" y="970">  │ └── is-property@1.0.2 </tspan>
+<tspan x="10" y="986">  ├── protocol-buffers-schema@3.3.0 </tspan>
+<tspan x="10" y="1002">  ├── signed-varint@2.0.1 </tspan>
+<tspan x="10" y="1018">  └── varint@5.0.0</tspan>
 </text>
 </svg>
